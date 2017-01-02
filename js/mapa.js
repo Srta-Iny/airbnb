@@ -11,8 +11,8 @@ function initMap() {
     center: centro,
     mapTypeControl: false,
     panControl: false,
-    zoomControl: false,
-    streetViewControl: false
+    zoomControl: true,
+    streetViewControl: true
   });
 	var centro = null;
 		// geolocalizacion muestra ubicacion actual 
